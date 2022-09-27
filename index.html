@@ -12,9 +12,42 @@
             font-family:'Times New Roman', Times, serif;
             font-size: 14px;
 
-
-
         }
+        #primer{
+            background-color: blue;
+            color: aliceblue;
+        }
+        #resaltado{
+            background-color: rgb(179, 255, 2);
+        }
+        #microsoft{
+            margin:25px;
+        }   
+        .azules{
+            font-size: 20px;
+            background-color: blue;
+            color: aliceblue;
+        } 
+        .rojo{
+            font-size: 30px;
+            background-color: red;
+        }
+        h4{
+            margin-left: 20px;
+        #sitios{
+            mdth:60%
+            margin:auto;
+            box-shadow:8px 10px 5px black;
+        }    
+
+
+
+
+
+
+
+
+
         </style> 
 </head>
 
@@ -25,7 +58,7 @@
 
 
         
-            <p>
+            <p id="primer">
                  
                 Web es una palabra inglesa  que significa red o telaraña. se designa como "la Web"
                 al sistema de gestion de informacion mas popular para la transmision de datos a traves de internet.
@@ -57,8 +90,8 @@
                 empresas, universidades y organizaciones sin animo de lucro.
                 El W3C esta organizado en grupos de trabajo(WG,Working Groups). Los primeros Grupias de trabajo que se crearon se dedicaron al HTML y a las
                 CSS.
-            <p>
-                En 1995 Mocrosoft Incluyo en Windows un navegador, Internet Explorer, que poco a poco comenzo a ganar cuota de mercadp a costa de Netscape.
+            <p id="microsoft">
+                En 1995 Mocrosoft Incluyo en Windowsvbvvvvvvvvvvvvvvvvvvvv un navegador, Internet Explorer, que poco a poco comenzo a ganar cuota de mercadp a costa de Netscape.
                 Daba comienzo a la llamada guerra de los anvegadores.
                 Entre 1995 y 2000 Microsoft y Netscape compitieron a un ritmo frenetico para la epoca, publicando nuevas versiones cada año. Para diferenciar
                 sus productos, cada navegador fue incorporando nuevas etiquetas, lo que supuso un riesgo de fragmentacion de la Web.
@@ -74,21 +107,25 @@
             <h2 style="color:midnightblue;">Tipos de Sitios Web</h2>
             <ul>
 
-                <li>Visibilidad de contenidos 
-                <li>actualizacion de contenidos
-                <li>Actividad o fin Principal
+                <li class="azules">Visibilidad de contenidos 
+                <li class="azules">actualizacion de contenidos
+                <li class="azules">Actividad o fin Principal
+                    con respecto a la visibilidad de contenidos debemos estructurar los sitios web en:
                 </li>
-                con respecto a la visibilidad de contenidos debemos estructurar los sitios web en:
-                <li>Intranets Una Intranet es un sitio web instaladoen una red privada con un fin principalmente empresarial u organizacional.
-                <li>Extranets La extranet se extiende como una "intranet llevada a internet", es decir sigue siendo un sitio Web con una finalidad
+                <li class="rojo">Intranets Una Intranet es un sitio web instaladoen una red privada con un fin principalmente empresarial u organizacional.
+                <li class="rojo">Extranets La extranet se extiende como una "intranet llevada a internet", es decir sigue siendo un sitio Web con una finalidad
                     privada, restringida a un numero determinado de personas, pero cuyo alcance requiere que este en internet. como ejemplos de
                     extranets podemos considerar cualquier area privada de un sitio Web que permite al usuario consultar, modificar,crear y eliminar
                     datos externos de la empresa.
-                <li>Sitios Web Publicos Este es un sitio Web "al uso", de la informacion publica, originado para ser utilizado por todos los usuarios.
-                <li>Sitios Web Estaticos Sitios Web en los que los contenidos no se modifican.Son sitios Web que se han creado y cuya informacion 
+                <li class="rojo">Sitios Web Publicos Este es un sitio Web "al uso", de la informacion publica, originado para ser utilizado por todos los usuarios.
+                <li class="rojo">Sitios Web Estaticos Sitios Web en los que los contenidos no se modifican.Son sitios Web que se han creado y cuya informacion 
                     permanece inalterada co el paso del tiempo.
-                <li>Sitios Web Dinamicos
-                <li>       
+                <li class="azules">Sitios Web Dinamicos Aquellos cuyos contenidos varian de forma permanente.Las redes sociales, los periodicos, etc., son claros 
+                    ejemplos de estos tipos de sitios web.
+                <li> Sitios Web que combinan ambos tipos En el sector de las Webs de tipo empresarial, suele ser habitual combinar cierta informacion estatica(Quienes
+                    somos, Donde estamos, filosofia,etc.)   con informacion dinamica(Noticias de la empresa)Podemos incluir aqui periodicos, informacion del tiempo,
+                    bolsa, etc.
+                </li>       
             </ul>
 
                 Buscadores
@@ -113,14 +150,14 @@
                 El lenguaje HTML fue creado para estructurar y dar sentido al contenido de la página web. Su sintaxis
                 gira esencialmente en torno a tres términos básicos: elemento, etiqueta y atributo.
             </p>
-            <h4>Elementos </h4>
-            <p>
+            <h4 margin="20px">Elementos </h4>
+            <p class="azules">
                 Los elementos se refieren a los identificadores que describen objetos (texto, imagen u objeto
                 multimedia) dentro de una página web, incluida la estructura y el contenido. Los elementos estan
                 formados por una etiqueta de apertura, contenido y una etiqueta de cierre.
             </p>
 
-            <h4>Etiquetas </h4>
+            <h4 >Etiquetas </h4>
 
             <p>
                 El término “etiqueta” es uno de los conceptos básicos del lenguaje HTML. Los elementos en HTML a menudo
@@ -324,7 +361,7 @@
 
             <p> <em>El dinero</em> es importante pero <strong>la salud</strong> lo es más. </p>
 
-            <h3>Texto resaltado: &lt;mark&gt;</h3>
+            <h3 id="resaltado">Texto resaltado: &lt;mark&gt;</h3>
             <p> Representa un texto marcado o resaltado como referencia o anotación</p>
             <p>Ejemplo.-</p>
             <p>
