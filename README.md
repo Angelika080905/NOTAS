@@ -1,1 +1,1 @@
-# NOTAS desarrollo wed
+# NOTAS Escuela de código curso desarrollo web
