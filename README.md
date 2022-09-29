@@ -1,1 +1,1 @@
-# NOTAS cambios a readme
+# NOTAS Escuela de código curso desarrollo web
